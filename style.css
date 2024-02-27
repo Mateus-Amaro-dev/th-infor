@@ -26,7 +26,6 @@ html {
     color: black;
     font-family: var(--font2);
     padding:20px 0;
- 
 
 }
 
@@ -307,7 +306,7 @@ line-height: 40px;
     color:rgb(255, 255, 255);
     margin: 10px;
     padding: 10px 0;
-    background: rgba(26, 25, 25, 0.788);
+    background: rgba(10, 10, 10, 0.89);
     font-family: var(--font2);
     width: 100%;
     text-align: center;
@@ -386,11 +385,6 @@ line-height: 40px;
 
 #footer .nav-link {
     color:white;
-}
-
-#footer .nav-item {
-}
-#footer .navbar-brand {
 }
 
 #footer i {
