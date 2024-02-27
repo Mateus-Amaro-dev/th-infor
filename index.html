@@ -14,6 +14,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<script src="js/script.js" defer></script>
+
     <title>TH INFOR.</title>
   </head>
   <body>
@@ -50,7 +53,7 @@
 
     <div class="hero" >
         <div class="container">
-            <div class="row " data-aos="fade-up" data-aos-easing="ease-out-cubic"
+        <div class="row " data-aos="fade-up" data-aos-easing="ease-out-cubic"
             data-aos-duration="2000" >
                 <div class="col-xl-6 col-md-12">
                 <div class="herocontent">
@@ -63,84 +66,47 @@
         </div>
     </div>
 
-  <!--   OFERTAS SEMANAS - USAR QUANDO PRECISO
-    <div class="offer" >
-      <div class="container">
-        <div class="row " data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="500">
-          <div class="col-lg-6">
-            <div class="left">
-              </div>
-          </div>
-
-        
-            <div class="col-lg-6">
-              <div class="right">
-                    <h1 class="display-4"><b>Geforce 2080</b> - The Power  of the Gaming </h1>
-                    <p class="lead" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, voluptatibus aliquam </p>
-            <div class="row1">
-                <h3>599$</h3>
-            </div>
-          </div>
-        </div> -->
-
-      </div>
-    </div>
-  </div>
 <div class="product-list">
+  
     <div class="container" id="row1">
-        <h1 class="text-left">Computadores disponíveis</h1>
-        <div  class="row "  data-aos="fade-up" data-aos-duration="2000">
-         
-          <!-- MODELO PARA COMPUTADOR A VENDA -->
-          <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="product">
-                    <div class="">
-                      <img src="images/pc1.webp" alt="" width="250">
-                    </div>
-                    <h1 class="display-4">PC para trabalho</h1>
-                    <p>Core 2 Duo - 4gb de RAM - 500GB de armazenamento</p>
-                    <p>Windows 10 Pro + pacote Office ja instalado</p>
-                    <div class="productrow">
-                    <p class="lead">500$</p>
-                    
-                </div>
-                </div>
-            </div> 
-
-      <!-- COMENTAR ESSA DIV CASO TENHA PRODUTO A VENDA
-          <div class="col-lg-3 col-md-6 col-sm-12">
-              <div class="product">
-                    <h1 class="display-4">NENHUM COMPUTADOR A VENDA NO MOMENTO</h1>
-              </div>
-                </div>
-          </div> 
-       ============================================ -->
+        <h1 class="text-left">Produtos</h1>
+        <div class="wrapper">
+          <i id="left" class="fa-solid fa-angle-left"></i>
+          <ul class="carousel">
+            <li class="card">
+              <div class="img"><img src="images/mouse.jpg" alt="img" draggable="false"></div>
+              <h2>Blanche Pearson</h2>
+              <span>Sales Manager</span>
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/teclado.png" alt="img" draggable="false"></div>
+              <h2>Joenas Brauers</h2>
+              <span>Web Developer</span>
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/fonte.webp" alt="img" draggable="false"></div>
+              <h2>Lariach French</h2>
+              <span>Online Teacher</span>
+            </li>
+            <li class="card">
+              <div class="img"><img src="images/pend1.png" alt="img" draggable="false"></div>
+              <h2>James Khosravi</h2>
+              <span>Freelancer</span>
+            </li>
+          </ul>
+          <i id="right" class="fa-solid fa-angle-right"></i>
         </div>
     </div>
 
 
 
-
-
+    
 
 
     <div class="container" id="row2">
       <h1 class="text-left">Notebooks disponíveis</h1>
       <div   data-aos="fade-up" data-aos-duration="2000" class="row">
-   
-       <!-- <div class="col-lg-3 col-md-6 col-sm-12">
-              <div class="product">
-                  <div class="product-image">
-                      <img src="images/a01.jpg" alt="" width="250">
-                  </div>
-                  <h1 class="display-4">Macbook Pro </h1>
-                  <div class="productrow">
-                  <p class="lead">1250$</p>
-                  <button class="buy"><i class="las la-shopping-cart la-2x  "></i></button>
-              </div>
-              </div>
-          </div> -->
-          
+    
           
       <!-- COMENTAR ESSA DIV CASO TENHA PRODUTO A VENDA -->
             <div class="col-lg-3 col-md-6 col-sm-12">
@@ -151,98 +117,59 @@
             </div> 
        <!--  ============================================ -->
       </div>
-  </div>
 
-  <div class="container" id="row3">
-    <h1 class="text-left">Celulares disponíveis</h1>
-    <div  data-aos="fade-up" data-aos-duration="2000" class="row">
-        
-     <!-- MODELO CASO TENHA ALGUM A VENDA -->
-       <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="product">
-                <div class="product-image">
-                  <img src="images/a01.jpg" alt="" width="250">
+
+    <div class="container" id="row3">
+      <h1 class="text-left">Celulares disponíveis</h1>
+      <div  data-aos="fade-up" data-aos-duration="2000" class="row">
+          
+       <!-- MODELO CASO TENHA ALGUM A VENDA -->
+         <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="product">
+                  <div class="product-image">
+                    <img src="images/a01.jpg" alt="" width="250">
+                  </div>
+                  <h1 class="display-4">Smartphone Android Samsung Galaxy A01 SM-A015T 16GB ROM 2GB RAM</h1>
+               
+                  <div class="productrow">
+                    <p class="lead">220$</p>
                 </div>
-                <h1 class="display-4">Smartphone Android Samsung Galaxy A01 SM-A015T 16GB ROM 2GB RAM</h1>
-             
-                <div class="productrow">
-                  <p class="lead">220$</p>
-              </div>
-            </div>
-        </div> 
-
-      <!-- COMENTAR ESSA DIV CASO TENHA PRODUTO A VENDA
-           <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="product">
-                  <h1 class="display-4">NENHUM CELULAR A VENDA NO MOMENTO</h1>
-            </div>
               </div>
           </div> 
-        ============================================ -->
+      </div>
+    </div>
 
-</div>
 
-<div class="container" id="row3">
-  <h1 class="text-left">Produtos</h1>
-  <div  data-aos="fade-up" data-aos-duration="2000" class="row">
-      
-   <!-- MODELOS DE PRODUTOS MAXIMO 4 ITENS-->
-
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="product">
-            <div class="">
-              <img src="images/mouse.jpg" alt="" width="250">
+    <div class="container" id="row4">
+      <h1 class="text-left">Computadores disponiveis</h1>
+      <div  data-aos="fade-up" data-aos-duration="2000" class="row">
+    
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="product">
+                <div class="">
+                  <img src="images/pc1.webp" alt="" width="250">
+                </div>
+                <h1 class="display-4">PC DDR3</h1>
+                <P>Core 2 Duo - 4gb de RAM - 500GB de armazenamento</P>
+                <P>Windows 10 Pro + pacote Office ja instalado</P>
+                <div class="productrow">
+                <p class="lead">500$</p>
             </div>
-            <h1 class="display-4">Mouse com 3 botões, sensor ótico infravermelho com resolução de 1200 dpi, design bonito, cabo com 1,20 m</h1>
-            <div class="productrow">
-            <p class="lead">20$</p>
-        </div>
-        </div>
-    </div> 
-
-    <div class="col-lg-3 col-md-6 col-sm-12">
-      <div class="product">
-          <div class="">
-            <img src="images/teclado.png" alt="" width="250">
-          </div>
-          <h1 class="display-4">Teclado Multilaser Slim Preto Laser Usb</h1>
-          <div class="productrow">
-          <p class="lead">35$</p>
-      </div>
-      </div>
-  </div> 
-
-  <div class="col-lg-3 col-md-6 col-sm-12">
-    <div class="product">
-        <div class="">
-          <img src="images/fonte.webp" alt="" width="250">
-        </div>
-        <h1 class="display-4">Fonte De Alimentação Para Pc Brazil Pc Bpc-230 230w Prata 115v/230v </h1>
-        <div class="productrow">
-        <p class="lead">100$</p>
+            </div>
+        </div> 
+     </div>
     </div>
-    </div>
-</div> 
 
-<div class="col-lg-3 col-md-6 col-sm-12">
-  <div class="product">
-      <div class="">
-        <img src="images/pend1.png" alt="" width="250">
-      </div>
-      <h1 class="display-4">Sandisk Pen drive USB Cruzer Blader ( 4GB | 8GB | 16GB | 32GB | 64GB ) </h1>
-      <div class="productrow">
-      <p class="lead">15$</p>
-    </div>
-   </div>
-  </div> 
- </div>
 </div>
+
 
   <div class="footermain d-flex justify-content-around">
           <a class="navbar-brand" href="#">TH INFOR.</a>
           <h3 class=""> ℗ Mateus Amaro</h3>       
   </div>
 </div>
+
+
 
     <!-- Optional JavaScript -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
